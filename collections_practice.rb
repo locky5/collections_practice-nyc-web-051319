@@ -45,8 +45,5 @@ def add_s(array)
   new_array.map do |element|
     element + "s"
   end
-  final_array = new_array.map do |element|
-    element + "s"
-  end
-  final_array.insert(1, array[1])
+  new_array.insert(1, array[1])
 end
